@@ -19,7 +19,11 @@
 %define makefstab_skip_entries /system none /sys/fs/pstore /dev/cpuctl
 
 %define straggler_files\
+    /file_contexts\
+    /property_contexts\
+    /seapp_contexts\
     /selinux_version\
+    /sepolicy\
     /service_contexts\
 %{nil}
 
